@@ -50,7 +50,9 @@ You're pretty much done at this point any steps from here on out will just expla
 1. ##### Create 3 Variable
 
    **Level_Stats** which is a struct of F_LevelData
+   
    **CurrentLevel** which is integer, I set the default value to 1
+   
    **CurrentXP** which is a float with a default value of 0.0
 
 2. ##### Construction
