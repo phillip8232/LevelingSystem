@@ -6,7 +6,7 @@
 
 First you will need to create a structure I named mine F_LevelData but you can name it just about anything and will still work fine.
 
-![01WhatYouNeed](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\01WhatYouNeed.png)
+![01WhatYouNeed](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/01WhatYouNeed.png)
 
 You'll need to have an idea of what members you need for me I've created **XpToLevel** = The required XP before leveling up
 **HP** = Health points Value
@@ -17,21 +17,21 @@ You'll need to have an idea of what members you need for me I've created **XpToL
 **Mob** = Mobility added on top of your character default speed of 600.
 **CritRate** = Chances to hit a critical ( you might want CritDamage as well depending on what you will be using it for )
 
-![02LevelStruct](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\02LevelStruct.png)
+![02LevelStruct](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/02LevelStruct.png)
 
 ##### Step 2
 
 You'll want to create a spreadsheet using any program then export it as a csv, for me I used Google's spreadsheet, having knowledge with spreadsheets will help create data tables faster.
 
-![03ConstructSpreadSheet](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\03ConstructSpreadSheet.png)
+![03ConstructSpreadSheet](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/03ConstructSpreadSheet.png)
 
 ##### Step 3
 
 You'll then want to import the csv you have created into unreal, and select the structure you have created.
 
-![04Import](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\04Import.png)
+![04Import](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/04Import.png)
 
-![05YourStruct](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\05YourStruct.png)
+![05YourStruct](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/05YourStruct.png)
 
 You're pretty much done at this point any steps from here on out will just explain my process of how I use the data I've imported.
 
@@ -49,17 +49,17 @@ You're pretty much done at this point any steps from here on out will just expla
 
    Then Pass the output from Data table row to Level_Stats as you will be using this from now on.
 
-![06Variable&Consturction](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\06Variable&Consturction.png)
+![06Variable&Consturction](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/06Variable%26Consturction.png)
 
 ##### Step 5
 
 Create a Level up Function you'll just be incrementing current level and double converting.
 
-![07LevelUpFunction](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\07LevelUpFunction.png)
+![07LevelUpFunction](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/07LevelUpFunction.png)
 
 You'll want to set the stats as you level up. The print Statements are optional for debugging purposes.
 
-![08LevelUpOutput](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\08LevelUpOutput.png)
+![08LevelUpOutput](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/08LevelUpOutput.png)
 
 ##### Step 6
 
@@ -67,19 +67,19 @@ Create a gain XP function you'll want an Input mines just called **XP** and it's
 
 This is done because subtraction will always occur and you wouldn't want the players **Current XP** to drop into the negatives, this also prevents you from having use a branch. 
 
-![09GainEXP](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\09GainEXP.png)
+![09GainEXP](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/09GainEXP.png)
 
 ##### Finished
 
 You're done you can test this functionality out by creating a keybind, and using the gain XP function.
 
-![10Test](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\10Test.png)
+![10Test](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/10Test.png)
 
-![11OutputShowcase](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\11OutputShowcase.png)
+![11OutputShowcase](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/11OutputShowcase.png)
 
 Also Now your Free to use The data From the data table however you please.
 
-![12FreeToUse](C:\Users\Home\Documents\GitHub\LevelingSystem\Photo\12FreeToUse.png)
+![12FreeToUse](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/12FreeToUse.png)
 
 Thanks for dropping by Stay safe.
 
