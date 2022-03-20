@@ -8,7 +8,9 @@ First you will need to create a structure I named mine F_LevelData but you can n
 
 ![01WhatYouNeed](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/01WhatYouNeed.png)
 
-You'll need to have an idea of what members you need for me I've created **XpToLevel** = The required XP before leveling up
+You'll need to have an idea of what members you need for me I've created 
+**XpToLevel** = The required XP before leveling up
+
 **HP** = Health points Value
 
 **Energy** = Stamina System Or Mana System, up to you.
