@@ -10,12 +10,19 @@ First you will need to create a structure I named mine F_LevelData but you can n
 
 You'll need to have an idea of what members you need for me I've created **XpToLevel** = The required XP before leveling up
 **HP** = Health points Value
+
 **Energy** = Stamina System Or Mana System, up to you.
+
 **Str** = The flat damage to be added on top of base damage.
+
 **Int** = Skill flat Damage system.
+
 **Dex** = Auto attack speed, or something similar.
+
 **Mob** = Mobility added on top of your character default speed of 600.
+
 **CritRate** = Chances to hit a critical ( you might want CritDamage as well depending on what you will be using it for )
+
 
 ![02LevelStruct](https://github.com/phillip8232/LevelingSystem/blob/main/Photo/02LevelStruct.png)
 
